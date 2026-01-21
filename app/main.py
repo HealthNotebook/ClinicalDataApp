@@ -1,6 +1,10 @@
 from fastapi import FastAPI
-from app.request_models import SafeSummaryRequest
-from app.llm_client import generate_summary
+# from app.request_models import SafeSummaryRequest
+# from app.llm_client import generate_summary
+
+from request_models import SafeSummaryRequest
+from llm_client import generate_summary
+
 from fastapi import HTTPException
 import os
 import uvicorn

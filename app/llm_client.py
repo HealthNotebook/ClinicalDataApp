@@ -1,4 +1,5 @@
-from app.prompts import build_prompt
+# from app.prompts import build_prompt
+from prompts import build_prompt
 from openai import OpenAI
 from dotenv import load_dotenv
 import os
