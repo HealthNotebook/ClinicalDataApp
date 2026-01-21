@@ -1,10 +1,10 @@
 ---
-title: Clinical App Backend
+title: Clinical Backend
 emoji: 🏥
 colorFrom: blue
 colorTo: green
-sdk: gradio
-app_file: main.py
+sdk: docker
+app_port: 7860
 pinned: false
 ---
 
